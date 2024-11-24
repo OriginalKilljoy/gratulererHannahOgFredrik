@@ -37,6 +37,7 @@ function updateView(){
          <div class="text3">Lykke til</div>
          <br>
         <input onchange="changePage(this.value)"/>    
+        <div id="wrongInput"></div>
     </div>
     `
 }
@@ -52,6 +53,9 @@ function prizePage(){
 function changePage(){
     if(input = "gratulerermedbryllupsdagentilderåestefolkaiverden"){
         prizePage()
+    }
+    else{
+        document.getElementById('wrongInput').innerHTML = `<div>Hmm, det var visst ikke helt riktig. Prøv igjen.</div>`
     }
 }
 
