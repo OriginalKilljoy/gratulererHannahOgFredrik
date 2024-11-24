@@ -45,8 +45,7 @@ function prizePage(){
     document.getElementById('frontPage').innerHTML = /*HTML*/`
     <div class="text1">Gratulerer, dere løste gåten!!</div><br>
     <div class="text2">Dere får 200 norske kroner som går mot bryllupsreisen. Send Julie den Snåle en melding om at dere har knukket koden, så blir det vippset snarest!</div><br>
-    <div class="text3">(Authors note fra etter bryllupsreisen. Siden Julie den Snåle er så snål at hun glemte gaven i Sandefjord, gir ikke gaven så mye mening lenger.</div>
-    <div class="text3">Så i stedet for at det brukes på bryllupsreisen, så kan dere kjøpe en liten treat ellerno idk hehehe LOVE YOU)</div>
+    <div class="text3">(Authors note fra etter bryllupsreisen. Siden Julie den Snåle er så snål at hun glemte gaven i Sandefjord, gir ikke gaven så mye mening lenger. Så i stedet for at det brukes på bryllupsreisen, så kan dere kjøpe en liten treat ellerno idk hehehe LOVE YOU)</div>
     `
 }
 

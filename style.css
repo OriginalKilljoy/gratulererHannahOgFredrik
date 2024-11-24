@@ -45,6 +45,7 @@ body{
     animation: fadeIn1 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    text-align: center;
 }
 
 .text2{
@@ -52,6 +53,7 @@ body{
     animation: fadeIn2 3s;
     animation-delay: 3s;
     animation-fill-mode: forwards;
+    text-align: center;
 }
 
 .text3{
@@ -59,6 +61,7 @@ body{
     animation: fadeIn2 3s;
     animation-delay: 5s;
     animation-fill-mode: forwards;
+    text-align: center;
 }
 
 
