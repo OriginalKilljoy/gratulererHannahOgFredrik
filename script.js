@@ -24,6 +24,7 @@
 //         prizePage()
 // }
 // }
+let input = '';
 
 updateView()
 
@@ -50,8 +51,8 @@ function prizePage(){
     `
 }
 
-function changePage(){
-    if(input = "gratulerermedbryllupsdagentilderåestefolkaiverden"){
+function changePage(input){
+    if(input == "gratulerermedbryllupsdagentilderåestefolkaiverden"){
         prizePage()
     }
     else{
